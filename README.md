@@ -1,45 +1,53 @@
-# 🌦️ Weather App (React)
+# 🌤️ React Weather App
 
-A simple weather app made with **React.js** and **OpenWeatherMap API**. You can search any city and see live weather information like temperature, humidity, wind speed, sunrise, and more.
+A simple weather app built with **React.js**, **Tailwind CSS**, and the **OpenWeatherMap API**. Search any city to see live weather updates like temperature, humidity, wind, sunrise, sunset, and more.
 
 ---
 
-## 🧑‍💻 How to Run
+## 🚀 How to Run
 
-1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
-npm i 
+npm install
+```
 
-⚙️ Technologies Used
-React.js – JavaScript library for UI
+Create a `.env` file in the root folder and add your OpenWeatherMap API key:
 
-Tailwind CSS – Utility-first CSS framework
+```
+VITE_WEATHER_API_KEY=your_api_key_here
+```
 
-OpenWeatherMap API – For live weather data
+Then start the app:
 
-Vite – Fast React development server
+```bash
+npm run dev
+```
 
-🌟 Features
-🔍 Search for any city
-
-🌡️ View temperature in °C or °F
-
-💧 Check humidity and visibility
-
-💨 Wind speed and direction
-
-🌅 Sunrise and 🌇 Sunset time
-
-📱 Mobile responsive layout
-
-🎨 Dynamic background based on weather
-
-
-🔗 API Used
-OpenWeatherMap API
-
-Made with 💙 using React + Tailwind CSS
+Open in browser: `http://localhost:5173`
 
 ---
+
+## ⚙️ Technologies Used
+
+- **React.js**
+- **Tailwind CSS**
+- **Vite**
+- **OpenWeatherMap API**
+
+---
+
+## ✨ Features
+
+- 🔍 City search with suggestions
+- 🌡️ Temperature in °C / °F
+- 💧 Humidity and visibility
+- 💨 Wind speed and direction
+- 🌅 Sunrise and 🌇 Sunset time
+- 📱 Responsive design
+- 🎨 Auto background change (day/night)
+
+---
+
+> Made with 💙 using React + Tailwind CSS
+
